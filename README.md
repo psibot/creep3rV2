@@ -1,14 +1,16 @@
-creep3r-V2
+creep3rV2
 =======
-
-_________                             ________                         ________  
-\_   ___ \_______   ____   ____ ______\_____  \______            ___  _\_____  \
-/    \  \/\_  __ \_/ __ \_/ __ \\____ \ _(__  <_  __ \  ______   \  \/ //  ____/
-\     \____|  | \/\  ___/\  ___/|  |_> >       \  | \/ /_____/    \   //       \
- \______  /|__|    \___  >\___  >   __/______  /__|             /\ \_/ \_______ \
-        \/             \/     \/|__|         \/                 \/             \/
+![creep3rV2](https://i.imgur.com/ehGDlsI.png)
 
 Build and tested on Ubuntu 19.04
+
+# How to install:
+
+In folder installers run 
+
+* **Ubuntu**: ```$ sudo ./ubuntu_setup.sh ```
+
+# How to use:
 
 This is a big smash up of a lot of various tools I have made in the past along with some new ones. It includes a array of tools for helping with pentesting and messing around on the net. Currently only have installer files made for Ubuntu &amp; Debian systems, but if you know what you're doing you can easily read them and get what you need to get all the dependencies installed on your own.
 
