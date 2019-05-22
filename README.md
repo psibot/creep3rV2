@@ -19,3 +19,6 @@ http://youtu.be/z9rq1SBIYI0
 
 Here is another short video to show how the Dorker piece works:
 http://youtu.be/43aphr0QRng
+
+Shoutout to Hood3dRob1n - Great Guy with Great Tools 
+https://github.com/Hood3dRob1n
