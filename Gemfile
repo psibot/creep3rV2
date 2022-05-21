@@ -11,7 +11,7 @@ gem 'curb'
 
 # Parsing of HTML & XML made easy
 gem 'hpricot'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.6'
 
 # Nice MySQL like output tables
 gem 'text-table'
