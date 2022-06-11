@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 # Core of our crawler
 gem 'anemone'
-gem 'mechanize'
+gem 'mechanize', '>= 2.8.5'
 
 # LibCurl Wrapper which makes life much easier
 gem 'curb'
