@@ -4,14 +4,14 @@ source 'https://rubygems.org'
 
 # Core of our crawler
 gem 'anemone'
-gem 'mechanize'
+gem 'mechanize', '>= 2.8.5'
 
 # LibCurl Wrapper which makes life much easier
 gem 'curb'
 
 # Parsing of HTML & XML made easy
 gem 'hpricot'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.9'
 
 # Nice MySQL like output tables
 gem 'text-table'
@@ -35,7 +35,7 @@ gem 'tiny_tds'
 gem 'bcrypt'
 
 # Handy for various things, used mainly in Shodan search
-gem 'json'
+gem 'json', '>= 2.3.0'
 
 # Pure Ruby Zip Implementation, used for Zip Cracking
 gem 'archive-zip'
