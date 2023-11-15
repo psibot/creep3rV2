@@ -4,14 +4,14 @@ source 'https://rubygems.org'
 
 # Core of our crawler
 gem 'anemone'
-gem 'mechanize'
+gem 'mechanize', '>= 2.7.7'
 
 # LibCurl Wrapper which makes life much easier
 gem 'curb'
 
 # Parsing of HTML & XML made easy
 gem 'hpricot'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.4'
 
 # Nice MySQL like output tables
 gem 'text-table'
