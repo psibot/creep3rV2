@@ -28,16 +28,18 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.0331)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.8.8)
     mysql2 (0.5.2)
     net-http-digest_auth (1.4.1)
     net-http-persistent (3.0.1)
       connection_pool (~> 2.2)
     net-ssh (5.2.0)
-    nokogiri (1.10.3)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.15.7)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     ntlm-http (0.1.1)
     pg (1.1.4)
+    racc (1.8.1)
     robotex (1.0.0)
     ruby-progressbar (1.10.0)
     smbhash (1.0.2)
@@ -62,7 +64,7 @@ DEPENDENCIES
   mechanize
   mysql2
   net-ssh
-  nokogiri
+  nokogiri (>= 1.15.7)
   pg
   ruby-progressbar
   smbhash
@@ -71,4 +73,4 @@ DEPENDENCIES
   tiny_tds
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
